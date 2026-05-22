@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__filesystem__directory_tree",
+      "mcp__filesystem__read_text_file",
+      "mcp__filesystem__edit_file",
+      "WebFetch(domain:minimax-algeng-chat-tts.oss-cn-wulanchabu.aliyuncs.com)",
+      "Bash(pip show *)",
+      "Bash(python -m pip show langgraph)",
+      "Bash(python -m pip install langgraph --upgrade)"
+    ]
+  }
+}

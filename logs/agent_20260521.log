@@ -1,0 +1,44 @@
+2026-05-21 18:33:30,246 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-05-21 18:33:30,247 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 结合如今深圳的天气，我该如何保养我的扫地机器人
+2026-05-21 18:33:36,328 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-05-21 18:33:36,328 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '深圳'}
+2026-05-21 18:33:46,382 - agent - ERROR - agent_tools.py:117 - [get_weather]天气查询失败 city=深圳 err=城市解析失败: INVALID_USER_KEY
+2026-05-21 18:33:46,382 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-05-21 18:33:46,567 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-05-21 18:33:46,568 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 城市深圳天气查询失败，请稍后重试
+2026-05-21 18:33:50,889 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_user_location
+2026-05-21 18:33:50,889 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{}
+2026-05-21 18:34:12,368 - agent - WARNING - agent_tools.py:129 - [get_user_location]高德返回失败 info=INVALID_USER_KEY infocode=10001 ip=114.42.199.87
+2026-05-21 18:34:12,368 - agent - INFO - middleware.py:24 - [tool monitor]工具get_user_location调用成功
+2026-05-21 18:34:12,423 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-05-21 18:34:12,423 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 未知城市
+2026-05-21 18:34:18,247 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-05-21 18:34:18,248 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人保养指南 湿度 高温 多雨季节'}
+2026-05-21 18:34:24,705 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-05-21 18:34:25,748 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有7条消息。
+2026-05-21 18:34:25,749 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 多雨季节湿度高、气温高，应避免将扫地机器人长时间放置在潮湿环境中，防止内部元件受潮损坏；使用后及时清理尘盒和滤网，保持机身干燥；高温环境下避免阳光直射或靠近热源，以防电池老化或性能下降。
+2026-05-21 18:37:24,765 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-05-21 18:37:24,766 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 结合莆田当前的天气，给出保养机器人的建议。
+2026-05-21 18:37:31,934 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-05-21 18:37:31,934 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '莆田'}
+2026-05-21 18:37:42,407 - agent - ERROR - agent_tools.py:117 - [get_weather]天气查询失败 city=莆田 err=城市解析失败: INVALID_USER_KEY
+2026-05-21 18:37:42,407 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-05-21 18:37:42,595 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-05-21 18:37:42,596 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 城市莆田天气查询失败，请稍后重试
+2026-05-21 18:37:49,962 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-05-21 18:37:49,962 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '扫地机器人雨季或高湿度环境下如何保养'}
+2026-05-21 18:37:56,379 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-05-21 18:37:57,418 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-05-21 18:37:57,419 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 雨季或高湿度环境下，应将扫地机器人放置在干燥通风处，避免潮湿环境导致内部元件受潮；使用后及时清理尘盒、滤网和滚刷，防止霉菌滋生；若长时间不使用，建议取出电池并定期通电运行，以保持机器性能。
+2026-05-21 18:39:27,844 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有1条消息。
+2026-05-21 18:39:27,845 - agent - DEBUG - middleware.py:42 - [log_before_model]HumanMessage | 结合深圳当前的天气，给出保养扫地机器人的建议。
+2026-05-21 18:39:36,460 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：get_weather
+2026-05-21 18:39:36,461 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'city': '深圳'}
+2026-05-21 18:39:52,022 - agent - INFO - middleware.py:24 - [tool monitor]工具get_weather调用成功
+2026-05-21 18:39:52,681 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有3条消息。
+2026-05-21 18:39:52,681 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 城市深圳市天气为阴，气温28摄氏度，空气湿度85%，西南风≤3级，数据发布时间2026-05-21 18:31:09。
+2026-05-21 18:40:01,424 - agent - INFO - middleware.py:19 - [tool monitor]执行工具：rag_summarize
+2026-05-21 18:40:01,424 - agent - INFO - middleware.py:20 - [tool monitor]传入参数：{'query': '高湿度环境下扫地机器人保养建议'}
+2026-05-21 18:40:08,463 - agent - INFO - middleware.py:24 - [tool monitor]工具rag_summarize调用成功
+2026-05-21 18:40:09,403 - agent - INFO - middleware.py:40 - [log_before_model]即将调用模型，带有5条消息。
+2026-05-21 18:40:09,403 - agent - DEBUG - middleware.py:42 - [log_before_model]ToolMessage | 在高湿度环境下，应将扫地机器人存放在干燥通风处，避免长期置于潮湿地面；使用后及时清理尘盒和滤网，并定期检查滚刷、边刷是否受潮发霉；建议每周至少充电一次以防电池受潮损坏。

@@ -1,0 +1,5 @@
+external_data_path: data/external/records.csv
+gaodekey: YOUR_AMAP_KEY
+gaode_base_url: https://restapi.amap.com
+gaode_timeout: 5
+bailian_api_key: YOUR_BAILIAN_API_KEY
